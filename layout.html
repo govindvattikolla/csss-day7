@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width:35%;
+        height:90vh;
+        border:2px solid red;
+        display:grid;
+        grid-template-columns: auto  auto;
+        padding: 10px;
+        gap:10px ;
+        background-color: grey;
+        
+         margin: auto; 
+         
+       
+    }
+    .container div{
+        /* background-color: aqua; */
+        border: 1px solid black;
+        align-content: center;
+        text-align: center;
+          
+    }
+    .item1{
+        grid-column:1/3;
+        background-color: aqua;
+        
+        
+        
+
+    }
+    .item2{
+        grid-column:1/3;
+        background-color: lightpink;
+
+       
+
+        
+    }
+    .item3{
+        background-color: lawngreen;
+    }
+    .item4{
+        grid-row: 3/5;
+        grid-column: 2/3;
+        background-color: blueviolet;
+        
+       
+
+    }
+    .item5{
+        background-color: lightsalmon;
+    }
+    
+    .item6{
+        grid-column: 1/3;
+        background-color: green;
+
+    }
+
+
+</style>
+<body>
+    <div class="container">
+
+        
+            <div class="item1">Header</div>
+            <div class="item2">nav</div>
+            <div class="item3">section</div>
+            <div class="item4">aside</div>
+            <div class="item5">article</div>
+            <div class="item6">footer</div>
+            
+
+       
+        
+    </div>
+    
+</body>
+</html>
